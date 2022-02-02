@@ -55,9 +55,10 @@
         gap: 5rem;
     }
 
+    #section-communities,
     #grow-together,
     #flowing-conversations,
-    #section-communities {
+    #your-users {
         margin-bottom: 20rem;
     }
 }

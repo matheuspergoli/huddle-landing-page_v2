@@ -214,6 +214,7 @@ html {
     gap: 11rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    margin-bottom: 25rem;
 }
 
 #your-users > * {
