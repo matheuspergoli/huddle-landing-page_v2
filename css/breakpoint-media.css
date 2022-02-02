@@ -38,6 +38,7 @@
 * FLOWING CONVERSATIONS SECTION
 * YOUR USER SECTION
 * COMMUNITIES SECTION
+* BUILD COMMUNITY SECTION
 */
 @media (max-width: 768px) {
     #grow-together-headline,
@@ -45,7 +46,8 @@
     #flowing-conversations-headline,
     #flowing-conversations-about,
     #your-users-headline,
-    #your-users-about {
+    #your-users-about,
+    #build-community-headline  {
         text-align: center;
     }
 

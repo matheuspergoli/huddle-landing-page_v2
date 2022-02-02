@@ -236,3 +236,19 @@ html {
 #your-users-img {
     max-width: 100%;
 }
+
+/* BUILD COMMUNITY SECTION */
+#build-community {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 25rem;
+}
+
+#build-community-headline {
+    font-family: var(--font-poppins);
+    font-size: clamp(3rem, 4vw, 5rem);
+}
