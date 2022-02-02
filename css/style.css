@@ -83,7 +83,7 @@ html {
     max-width: 60rem;
     text-align: center;
     font-family: var(--font-open-sans);
-    font-size: clamp(1.5rem, 5vw, 2rem);
+    font-size: clamp(1.5rem, 2.2vw, 2rem);
 }
 
 /* MAIN BUTTON */
@@ -125,7 +125,7 @@ html {
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 10rem;
-    margin-bottom: 20rem;
+    margin-bottom: 15rem;
 }
 
 .communities-headline {
@@ -160,12 +160,12 @@ html {
 
 #grow-together-headline {
     font-family: var(--font-poppins);
-    font-size: clamp(3rem, 4.5vw, 5rem);
+    font-size: clamp(3rem, 4vw, 5rem);
 }
 
 #grow-together-about {
     font-family: var(--font-open-sans);
-    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-size: clamp(1.5rem, 2.2vw, 2rem);
 }
 
 #grow-together-img {
