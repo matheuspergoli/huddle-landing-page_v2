@@ -150,6 +150,7 @@ html {
     gap: 7rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    margin-bottom: 25rem;
 }
 
 #grow-together > * {
@@ -169,5 +170,68 @@ html {
 }
 
 #grow-together-img {
+    max-width: 100%;
+}
+
+/* FLOWING CONVERSATIONS SECTION */
+#flowing-conversations {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 25rem;
+}
+
+#flowing-conversations > * {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 30rem;
+}
+
+#flowing-conversations-headline {
+    font-family: var(--font-poppins);
+    font-size: clamp(3rem, 4vw, 5rem);
+}
+
+#flowing-conversations-about {
+    font-family: var(--font-open-sans);
+    font-size: clamp(1.8rem, 2.2vw, 2rem);
+}
+
+#flowing-conversations-img {
+    max-width: 100%;
+}
+
+/* YOUR USERS SECTION */
+#your-users {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#your-users > * {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 30rem;
+}
+
+#your-users-headline {
+    font-family: var(--font-poppins);
+    font-size: clamp(3rem, 4vw, 5rem);
+}
+
+#your-users-about {
+    font-family: var(--font-open-sans);
+    font-size: clamp(1.8rem, 2.2vw, 2rem);
+}
+
+#your-users-img {
     max-width: 100%;
 }
