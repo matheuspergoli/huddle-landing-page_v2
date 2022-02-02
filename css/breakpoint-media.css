@@ -34,7 +34,12 @@
     }
 }
 
-/* GROW TOGETHER SECTION */
+/* * * * * * * * * * * * * * * * *
+* GROW TOGETHER SECTION           *
+* FLOWING CONVERSATIONS SECTION   *
+* YOUR USER SECTION               *
+* SECTION COMMUNITIES             *
+* * * * * * * * * * * * * * * * * */
 @media (max-width: 768px) {
     #grow-together-headline,
     #grow-together-about,
@@ -43,5 +48,17 @@
     #your-users-headline,
     #your-users-about {
         text-align: center;
+    }
+
+    #grow-together,
+    #flowing-conversations,
+    #your-users {
+        gap: 5rem;
+    }
+
+    #grow-together,
+    #flowing-conversations,
+    #section-communities {
+        margin-bottom: 10rem;
     }
 }
