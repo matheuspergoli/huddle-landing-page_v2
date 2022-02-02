@@ -83,7 +83,7 @@ html {
     max-width: 60rem;
     text-align: center;
     font-family: var(--font-open-sans);
-    font-size: clamp(1rem, 5vw, 2rem);
+    font-size: clamp(1.5rem, 5vw, 2rem);
 }
 
 /* MAIN BUTTON */
@@ -147,26 +147,25 @@ html {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap-reverse;
+    gap: 5rem;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
 }
 
-#grow-together-info {
-    
+#grow-together > * {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 30rem;
 }
 
 #grow-together-headline {
     font-family: var(--font-poppins);
-    font-size: clamp(2rem, 5vw, 5rem);
+    font-size: clamp(3rem, 4.5vw, 5rem);
 }
 
 #grow-together-about {
-    font-size: 2rem;
     font-family: var(--font-open-sans);
-}
-
-#grow-together-container-img {
-    
+    font-size: clamp(1.5rem, 3vw, 2rem);
 }
 
 #grow-together-img {

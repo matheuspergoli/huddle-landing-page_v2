@@ -33,3 +33,11 @@
         width: 1320px;
     }
 }
+
+/* GROW TOGETHER SECTION */
+@media (max-width: 768px) {
+    #grow-together-headline,
+    #grow-together-about {
+        text-align: center;
+    }
+}
