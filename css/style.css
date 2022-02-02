@@ -125,6 +125,7 @@ html {
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 10rem;
+    margin-bottom: 20rem;
 }
 
 .communities-headline {
@@ -138,4 +139,36 @@ html {
     color: var(--very-dark-cyan);
     font-family: var(--font-open-sans);
     font-size: clamp(1.5rem, 5vw, 2.5rem);
+}
+
+/* GROW TOGETHER SECTION */
+#grow-together {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+#grow-together-info {
+    
+}
+
+#grow-together-headline {
+    font-family: var(--font-poppins);
+    font-size: clamp(2rem, 5vw, 5rem);
+}
+
+#grow-together-about {
+    font-size: 2rem;
+    font-family: var(--font-open-sans);
+}
+
+#grow-together-container-img {
+    
+}
+
+#grow-together-img {
+    max-width: 100%;
 }
