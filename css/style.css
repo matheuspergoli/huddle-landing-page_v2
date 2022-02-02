@@ -125,7 +125,7 @@ html {
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 10rem;
-    margin-bottom: 15rem;
+    margin-bottom: 25rem;
 }
 
 .communities-headline {
@@ -147,9 +147,9 @@ html {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap-reverse;
-    gap: 5rem;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    gap: 7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 #grow-together > * {
