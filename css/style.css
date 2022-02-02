@@ -83,7 +83,7 @@ html {
     max-width: 60rem;
     text-align: center;
     font-family: var(--font-open-sans);
-    font-size: clamp(1.5rem, 2.2vw, 2rem);
+    font-size: clamp(1.8rem, 2.2vw, 2rem);
 }
 
 /* MAIN BUTTON */
@@ -165,7 +165,7 @@ html {
 
 #grow-together-about {
     font-family: var(--font-open-sans);
-    font-size: clamp(1.5rem, 2.2vw, 2rem);
+    font-size: clamp(1.8rem, 2.2vw, 2rem);
 }
 
 #grow-together-img {
