@@ -32,6 +32,23 @@ html {
     width: 100%;
 }
 
+/* CURVES CONFIG */
+.curve {
+    width: 100%;
+}
+
+.curve-container-bottom {
+    margin-bottom: 25rem;
+}
+
+#curve-top-grow-together {
+    margin-bottom: -2px;
+}
+
+#curve-top-your-users {
+    margin-bottom: -2px;
+}
+
 /* HEADER */
 #header {
     display: flex;
@@ -149,13 +166,13 @@ html {
 /* GROW TOGETHER SECTION */
 #grow-together {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap-reverse;
     gap: 7rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    margin-bottom: 25rem;
+    background-color: var(--very-pale-blue);
 }
 
 #grow-together > * {
@@ -170,6 +187,7 @@ html {
 }
 
 #grow-together-about {
+    max-width: 61rem;
     font-family: var(--font-open-sans);
     font-size: clamp(1.8rem, 2.2vw, 2rem);
 }
@@ -213,13 +231,13 @@ html {
 /* YOUR USERS SECTION */
 #your-users {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap-reverse;
     gap: 11rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    margin-bottom: 25rem;
+    background-color: var(--very-pale-blue);
 }
 
 #your-users > * {
