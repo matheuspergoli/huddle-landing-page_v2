@@ -45,7 +45,7 @@ html {
 }
 
 #container-logo {
-    width: clamp(15rem, 25vw, 25rem);
+    width: clamp(15rem, 45vw, 25rem);
 }
 
 #logo {
@@ -59,7 +59,7 @@ html {
     color: var(--light-pink);
     transition-duration: 200ms;
     font-family: var(--font-poppins);
-    border: 1px solid var(--light-pink);
+    border: 2px solid var(--light-pink);
     font-size: clamp(1.5rem, 5vw, 2rem);
 }
 
