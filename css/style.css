@@ -14,6 +14,8 @@
     --very-dark-cyan: hsl(192, 100%, 9%);
     --very-pale-blue: hsl(207, 100%, 98%);
 
+    --curve-svg-color: #F6FBFF;
+
     --font-poppins: 'Poppins', sans-serif;
     --font-open-sans: 'Open Sans', sans-serif;
 }
@@ -25,6 +27,11 @@ html {
 /* CONTAINER CLASS*/
 .container {
     margin: auto;
+}
+
+/* CONTAINER FLUID CLASS */
+.container-fluid {
+    width: 100%;
 }
 
 /* HEADER */
