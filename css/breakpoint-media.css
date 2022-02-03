@@ -33,33 +33,3 @@
         width: 1320px;
     }
 }
-/*
-* GROW TOGETHER SECTION
-* FLOWING CONVERSATIONS SECTION
-* YOUR USER SECTION
-* COMMUNITIES SECTION
-* BUILD COMMUNITY SECTION
-*/
-@media (max-width: 768px) {
-    #grow-together-headline,
-    #grow-together-about,
-    #flowing-conversations-headline,
-    #flowing-conversations-about,
-    #your-users-headline,
-    #your-users-about,
-    #build-community-headline  {
-        text-align: center;
-    }
-
-    #grow-together,
-    #flowing-conversations,
-    #your-users {
-        gap: 5rem;
-    }
-
-    #section-communities,
-    #flowing-conversations,
-    #build-community {
-        margin-bottom: 20rem;
-    }
-}
