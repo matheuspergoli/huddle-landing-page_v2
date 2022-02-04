@@ -36,7 +36,8 @@
 
 @media (max-width: 860px) {
     #grow-together,
-    #flowing-conversations {
+    #flowing-conversations,
+    #your-users {
         text-align: center;
         gap: 5rem;
     }

@@ -161,6 +161,15 @@ html {
     align-items: center;
     flex-wrap: wrap-reverse;
     margin-top: 15rem;
+    margin-bottom: 15rem;
+}
+
+#your-users {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    background-color: var(--very-pale-blue);
 }
 
 .features-headline {
