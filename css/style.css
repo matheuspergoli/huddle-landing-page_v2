@@ -158,7 +158,7 @@ html {
 .features-headline {
     color: var(--very-dark-cyan);
     font-family: var(--font-poppins);
-    font-size: clamp(3rem, 10vw, 5rem);
+    font-size: clamp(3rem, 5vw, 5rem);
 }
 
 .features-about {
@@ -168,7 +168,7 @@ html {
 }
 
 .features-group {
-    width: clamp(30rem, 42vw, 61rem);
+    width: clamp(40rem, 42vw, 61rem);
 }
 
 .features-img {
