@@ -49,7 +49,7 @@ html {
     text-decoration: none;
     transition-duration: 200ms;
     background-color: var(--pink);
-    width: clamp(25rem, 60vw, 40rem);
+    width: clamp(25rem, 80vw, 40rem);
     font-family: var(--font-open-sans);
 }
 
@@ -100,7 +100,7 @@ html {
 
 #main-headline {
     font-family: var(--font-poppins);
-    font-size: clamp(2rem, 5vw, 5rem);
+    font-size: clamp(3rem, 5vw, 5rem);
 }
 
 #main-about {
