@@ -100,6 +100,7 @@ html {
 }
 
 #main-headline {
+    color: var(--very-dark-cyan);
     font-family: var(--font-poppins);
     font-size: clamp(2.5rem, 5vw, 5rem);
 }
@@ -107,6 +108,7 @@ html {
 #main-about {
     margin: auto;
     max-width: 60rem;
+    color: var(--very-dark-cyan);
     font-size: clamp(1rem, 5vw, 2rem);
     font-family: var(--font-open-sans);
 }
@@ -114,8 +116,29 @@ html {
 /* MAIN IMAGE */
 #main-img-container {
     text-align: center;
+    margin-bottom: 10rem;
 }
 
 #main-img {
     max-width: 100%;
+}
+
+/* STATS */
+#stats-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats-headline {
+    font-size: 7rem;
+    text-align: center;
+    color: var(--very-dark-cyan);
+    font-family: var(--font-poppins);
+}
+
+.stats-caption {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--very-dark-cyan);
+    font-family: var(--font-open-sans);
 }
