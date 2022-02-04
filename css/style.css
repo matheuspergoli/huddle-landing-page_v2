@@ -129,10 +129,11 @@ html {
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 10rem;
+    margin-bottom: 20rem;
 }
 
 .stats-headline {
-    font-size: 7rem;
+    font-size:6.5rem;
     text-align: center;
     color: var(--very-dark-cyan);
     font-family: var(--font-poppins);
@@ -143,4 +144,38 @@ html {
     text-align: center;
     color: var(--very-dark-cyan);
     font-family: var(--font-open-sans);
+}
+
+/* FEATURES */
+#grow-together {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    background-color: var(--very-pale-blue);
+}
+
+.features-headline {
+    color: var(--very-dark-cyan);
+    font-family: var(--font-poppins);
+    font-size: clamp(3rem, 10vw, 5rem);
+}
+
+.features-about {
+    color: var(--very-dark-cyan);
+    font-family: var(--font-open-sans);
+    font-size: clamp(1.5rem, 5vw, 2rem);
+}
+
+.features-group {
+    width: clamp(30rem, 42vw, 61rem);
+}
+
+.features-img {
+    width: clamp(30rem, 50vw, 60rem);
+}
+
+.curve {
+    width: 100%;
+    margin: -3px;
 }

@@ -33,3 +33,10 @@
         width: 1320px;
     }
 }
+
+@media (max-width: 768px) {
+    #grow-together {
+        text-align: center;
+        gap: 5rem;
+    }
+}
