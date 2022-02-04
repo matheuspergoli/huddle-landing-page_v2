@@ -155,6 +155,14 @@ html {
     background-color: var(--very-pale-blue);
 }
 
+#flowing-conversations {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    margin-top: 15rem;
+}
+
 .features-headline {
     color: var(--very-dark-cyan);
     font-family: var(--font-poppins);
@@ -168,7 +176,7 @@ html {
 }
 
 .features-group {
-    width: clamp(40rem, 42vw, 61rem);
+    width: clamp(40rem, 42vw, 65rem);
 }
 
 .features-img {
