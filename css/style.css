@@ -36,11 +36,33 @@ html {
     padding-right: 1.5rem;
 }
 
+/* MAIN BUTTON CLASS */
+.main-button {
+    display: block;
+    margin: auto;
+    height: 6rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 6rem;
+    border-radius: 3rem;
+    text-decoration: none;
+    transition-duration: 200ms;
+    background-color: var(--pink);
+    width: clamp(25rem, 60vw, 40rem);
+    font-family: var(--font-open-sans);
+}
+
+.main-button:hover {
+    background-color: var(--light-pink);
+}
+
 /* HEADER */
 #header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10rem;
     padding: clamp(1rem, 4vw, 5rem);
 }
 
@@ -66,4 +88,24 @@ html {
 #try-it-free:hover {
     color: var(--pink);
     border-color: var(--pink);
+}
+
+/* INTRODUCTION */
+#introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    text-align: center;
+}
+
+#main-headline {
+    font-family: var(--font-poppins);
+    font-size: clamp(2rem, 5vw, 5rem);
+}
+
+#main-about {
+    margin: auto;
+    max-width: 60rem;
+    font-size: clamp(1rem, 5vw, 2rem);
+    font-family: var(--font-open-sans);
 }
