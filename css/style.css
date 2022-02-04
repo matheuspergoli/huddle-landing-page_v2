@@ -127,6 +127,8 @@ html {
 #stats-container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10rem;
 }
 
 .stats-headline {
