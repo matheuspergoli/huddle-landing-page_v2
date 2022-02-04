@@ -49,7 +49,7 @@ html {
     text-decoration: none;
     transition-duration: 200ms;
     background-color: var(--pink);
-    width: clamp(25rem, 80vw, 40rem);
+    width: clamp(25rem, 85vw, 40rem);
     font-family: var(--font-open-sans);
 }
 
