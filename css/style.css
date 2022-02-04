@@ -172,6 +172,11 @@ html {
     background-color: var(--very-pale-blue);
 }
 
+.curve {
+    width: 100%;
+    margin: -3px;
+}
+
 .features-headline {
     color: var(--very-dark-cyan);
     font-family: var(--font-poppins);
@@ -190,9 +195,4 @@ html {
 
 .features-img {
     width: clamp(30rem, 50vw, 60rem);
-}
-
-.curve {
-    width: 100%;
-    margin: -3px;
 }
