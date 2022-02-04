@@ -63,7 +63,7 @@ html {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10rem;
-    padding: clamp(1rem, 4vw, 5rem);
+    padding: clamp(1.5rem, 4vw, 5rem);
 }
 
 #container-logo {
@@ -96,11 +96,12 @@ html {
     flex-direction: column;
     gap: 2.5rem;
     text-align: center;
+    margin-bottom: 10rem;
 }
 
 #main-headline {
     font-family: var(--font-poppins);
-    font-size: clamp(3rem, 5vw, 5rem);
+    font-size: clamp(2.5rem, 5vw, 5rem);
 }
 
 #main-about {
@@ -108,4 +109,13 @@ html {
     max-width: 60rem;
     font-size: clamp(1rem, 5vw, 2rem);
     font-family: var(--font-open-sans);
+}
+
+/* MAIN IMAGE */
+#main-img-container {
+    text-align: center;
+}
+
+#main-img {
+    max-width: 100%;
 }
